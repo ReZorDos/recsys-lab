@@ -1,0 +1,25 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Файлы PyCharm
+.idea/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Кэш pytest
+.pytest_cache/
+
+# Исходные архивы датасета
+data/raw/
+
+# Временные файлы
+*.log
+*.tmp
+
+# Системные файлы
+.DS_Store
+Thumbs.db

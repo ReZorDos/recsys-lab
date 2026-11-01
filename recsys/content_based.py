@@ -51,6 +51,7 @@ def recommend_similar(product_id, top_n=5):
 if __name__ == "__main__":
     product = products.iloc[0]
     print("Выбранный товар:", product["title"])
+    recommendations = recommend_similar(product["product_id"])
 
     for _, item in recommendations.iterrows():
         print(
