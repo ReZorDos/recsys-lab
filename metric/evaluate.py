@@ -6,9 +6,9 @@ from recsys.collaborative import recommend_for_user
 from recsys.popularity import recommend_popular
 
 
-train = pd.read_csv("data/train.csv")
-test = pd.read_csv("data/test.csv")
-products = pd.read_csv("data/products.csv")
+train = pd.read_csv("../data/train.csv")
+test = pd.read_csv("../data/test.csv")
+products = pd.read_csv("../data/products.csv")
 
 K = 5
 
